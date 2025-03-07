@@ -20,6 +20,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       }}
       publishableKey={PUBLISHABLE_KEY}
       afterSignOutUrl="/"
+      routing="path"
+      tokenCache={(new Map())}
     >
       <App />
     </ClerkProvider>
